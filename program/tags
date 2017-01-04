@@ -1,0 +1,164 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+Key	globalRule.cpp	/^    Key(string p1, string p2):pos1(p1),pos2(p2){}$/;"	f	class:Key	access:public	signature:(string p1, string p2)
+Key	globalRule.cpp	/^class Key{$/;"	c	file:
+Key	globalRule_extand.cpp	/^    Key(word* w, int i, int ii1, int ii2){$/;"	f	class:Key	access:public	signature:(word* w, int i, int ii1, int ii2)
+Key	globalRule_extand.cpp	/^class Key{$/;"	c	file:
+Key::Key	globalRule.cpp	/^    Key(string p1, string p2):pos1(p1),pos2(p2){}$/;"	f	class:Key	access:public	signature:(string p1, string p2)
+Key::Key	globalRule_extand.cpp	/^    Key(word* w, int i, int ii1, int ii2){$/;"	f	class:Key	access:public	signature:(word* w, int i, int ii1, int ii2)
+Key::allWordRule	globalRule_extand.cpp	/^    void allWordRule(){$/;"	f	class:Key	access:public	signature:()
+Key::dis	globalRule_extand.cpp	/^    string dis;$/;"	m	class:Key	file:	access:public
+Key::getRules	globalRule_extand.cpp	/^    list<string> getRules(){$/;"	f	class:Key	access:public	signature:()
+Key::i1	globalRule_extand.cpp	/^    int i1;$/;"	m	class:Key	file:	access:public
+Key::i2	globalRule_extand.cpp	/^    int i2;$/;"	m	class:Key	file:	access:public
+Key::index	globalRule_extand.cpp	/^    int index;$/;"	m	class:Key	file:	access:public
+Key::int2string	globalRule_extand.cpp	/^    string int2string(int i){$/;"	f	class:Key	access:public	signature:(int i)
+Key::nearposRule	globalRule_extand.cpp	/^    void nearposRule(){$/;"	f	class:Key	access:public	signature:()
+Key::operator <	globalRule.cpp	/^    friend bool operator <(const Key &k1, const Key &k2){$/;"	f	class:Key	access:friend	signature:(const Key &k1, const Key &k2)
+Key::pos1	globalRule.cpp	/^    string pos1;$/;"	m	class:Key	file:	access:public
+Key::pos2	globalRule.cpp	/^    string pos2;$/;"	m	class:Key	file:	access:public
+Key::rules	globalRule_extand.cpp	/^    list<string> rules;$/;"	m	class:Key	file:	access:public
+Key::simpleRule	globalRule_extand.cpp	/^    string simpleRule(){$/;"	f	class:Key	access:public	signature:()
+Key::words	globalRule_extand.cpp	/^    word* words;$/;"	m	class:Key	file:	access:public
+PERCENTMIN	globalRule_extand.cpp	11;"	d	file:
+Rulemap	globalRule_extand.cpp	/^typedef map<string, statis> Rulemap;$/;"	t	file:
+TOTALMIN	globalRule_extand.cpp	12;"	d	file:
+action	globalRule.cpp	/^    string action;$/;"	m	struct:outdata	file:	access:public
+action	localRule.cpp	/^    string action;$/;"	m	struct:outdata	file:	access:public
+allWordRule	globalRule_extand.cpp	/^    void allWordRule(){$/;"	f	class:Key	access:public	signature:()
+childs	localRule.cpp	/^    list<word*> childs;$/;"	m	struct:word	file:	access:public
+cmp	globalRule.cpp	/^bool cmp(const outdata &d1, const outdata &d2){$/;"	f	signature:(const outdata &d1, const outdata &d2)
+cmp	globalRule_extand.cpp	/^bool cmp(const outdata &d1, const outdata &d2){$/;"	f	signature:(const outdata &d1, const outdata &d2)
+cmp	localRule.cpp	/^bool cmp(const outdata &d1, const outdata &d2){$/;"	f	signature:(const outdata &d1, const outdata &d2)
+countLink	globalRule.cpp	/^void countLink(my_map_type& m, word* words, int index1, int index2){$/;"	f	signature:(my_map_type& m, word* words, int index1, int index2)
+countLink	globalRule_extand.cpp	/^void countLink(Rulemap& m, word* words, int index, int index1, int index2){$/;"	f	signature:(Rulemap& m, word* words, int index, int index1, int index2)
+dis	globalRule_extand.cpp	/^    string dis;$/;"	m	class:Key	file:	access:public
+generateRules	globalRule_extand.cpp	/^void generateRules(Rulemap& m, char* trainPath, char* rulePath){$/;"	f	signature:(Rulemap& m, char* trainPath, char* rulePath)
+getRules	globalRule_extand.cpp	/^    list<string> getRules(){$/;"	f	class:Key	access:public	signature:()
+i	globalRule	/^ELF/;"	v
+i1	globalRule_extand.cpp	/^    int i1;$/;"	m	class:Key	file:	access:public
+i2	globalRule_extand.cpp	/^    int i2;$/;"	m	class:Key	file:	access:public
+index	globalRule.cpp	/^    int index;$/;"	m	struct:word	file:	access:public
+index	globalRule_extand.cpp	/^    int index;$/;"	m	class:Key	file:	access:public
+index	globalRule_extand.cpp	/^    int index;$/;"	m	struct:word	file:	access:public
+index	localRule.cpp	/^    int index;$/;"	m	struct:word	file:	access:public
+int2string	globalRule_extand.cpp	/^    string int2string(int i){$/;"	f	class:Key	access:public	signature:(int i)
+key	globalRule_extand.cpp	/^    string key;$/;"	m	struct:outdata	file:	access:public
+leftArc	globalRule.cpp	/^    int leftArc;$/;"	m	struct:outdata	file:	access:public
+leftArc	globalRule.cpp	/^    int leftArc;$/;"	m	struct:statis	file:	access:public
+leftArc	globalRule_extand.cpp	/^    int leftArc;$/;"	m	struct:outdata	file:	access:public
+leftArc	globalRule_extand.cpp	/^    int leftArc;$/;"	m	struct:statis	file:	access:public
+main	globalRule.cpp	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+main	globalRule_extand.cpp	/^int main(int argc, char** argv)$/;"	f	signature:(int argc, char** argv)
+main	localRule.cpp	/^int main(int argc, char ** argv)$/;"	f	signature:(int argc, char ** argv)
+main	right2conll.cpp	/^int main(int argc, char **argv){$/;"	f	signature:(int argc, char **argv)
+my_key_type	localRule.cpp	/^typedef pair<string, string> my_key_type;$/;"	t	file:
+my_map_type	globalRule.cpp	/^typedef map<Key, statis> my_map_type;$/;"	t	file:
+my_map_type	localRule.cpp	/^typedef map<my_key_type, statis> my_map_type;$/;"	t	file:
+name	globalRule.cpp	/^    string name;$/;"	m	struct:word	file:	access:public
+name	globalRule_extand.cpp	/^    string name;$/;"	m	struct:word	file:	access:public
+name	localRule.cpp	/^    string name;$/;"	m	struct:word	file:	access:public
+nearposRule	globalRule_extand.cpp	/^    void nearposRule(){$/;"	f	class:Key	access:public	signature:()
+operator <	globalRule.cpp	/^    friend bool operator <(const Key &k1, const Key &k2){$/;"	f	class:Key	access:friend	signature:(const Key &k1, const Key &k2)
+outdata	globalRule.cpp	/^    outdata():total(0),leftArc(0),rightArc(0),percent(0){}$/;"	f	struct:outdata	access:public	signature:()
+outdata	globalRule.cpp	/^struct outdata{$/;"	s	file:
+outdata	globalRule_extand.cpp	/^    outdata():total(0),leftArc(0),rightArc(0),percent(0){}$/;"	f	struct:outdata	access:public	signature:()
+outdata	globalRule_extand.cpp	/^struct outdata{$/;"	s	file:
+outdata	localRule.cpp	/^    outdata():total(0),success(0),percent(0){}$/;"	f	struct:outdata	access:public	signature:()
+outdata	localRule.cpp	/^struct outdata{$/;"	s	file:
+outdata::action	globalRule.cpp	/^    string action;$/;"	m	struct:outdata	file:	access:public
+outdata::action	localRule.cpp	/^    string action;$/;"	m	struct:outdata	file:	access:public
+outdata::key	globalRule_extand.cpp	/^    string key;$/;"	m	struct:outdata	file:	access:public
+outdata::leftArc	globalRule.cpp	/^    int leftArc;$/;"	m	struct:outdata	file:	access:public
+outdata::leftArc	globalRule_extand.cpp	/^    int leftArc;$/;"	m	struct:outdata	file:	access:public
+outdata::outdata	globalRule.cpp	/^    outdata():total(0),leftArc(0),rightArc(0),percent(0){}$/;"	f	struct:outdata	access:public	signature:()
+outdata::outdata	globalRule_extand.cpp	/^    outdata():total(0),leftArc(0),rightArc(0),percent(0){}$/;"	f	struct:outdata	access:public	signature:()
+outdata::outdata	localRule.cpp	/^    outdata():total(0),success(0),percent(0){}$/;"	f	struct:outdata	access:public	signature:()
+outdata::percent	globalRule.cpp	/^    double percent;$/;"	m	struct:outdata	file:	access:public
+outdata::percent	globalRule_extand.cpp	/^    double percent;$/;"	m	struct:outdata	file:	access:public
+outdata::percent	localRule.cpp	/^    double percent;$/;"	m	struct:outdata	file:	access:public
+outdata::pos1	globalRule.cpp	/^    string pos1;$/;"	m	struct:outdata	file:	access:public
+outdata::pos1	localRule.cpp	/^    string pos1;$/;"	m	struct:outdata	file:	access:public
+outdata::pos2	globalRule.cpp	/^    string pos2;$/;"	m	struct:outdata	file:	access:public
+outdata::pos2	localRule.cpp	/^    string pos2;$/;"	m	struct:outdata	file:	access:public
+outdata::rightArc	globalRule.cpp	/^    int rightArc;$/;"	m	struct:outdata	file:	access:public
+outdata::rightArc	globalRule_extand.cpp	/^    int rightArc;$/;"	m	struct:outdata	file:	access:public
+outdata::success	localRule.cpp	/^    int success;$/;"	m	struct:outdata	file:	access:public
+outdata::total	globalRule.cpp	/^    int total;$/;"	m	struct:outdata	file:	access:public
+outdata::total	globalRule_extand.cpp	/^    int total;$/;"	m	struct:outdata	file:	access:public
+outdata::total	localRule.cpp	/^    int total;$/;"	m	struct:outdata	file:	access:public
+percent	globalRule.cpp	/^    double percent;$/;"	m	struct:outdata	file:	access:public
+percent	globalRule_extand.cpp	/^    double percent;$/;"	m	struct:outdata	file:	access:public
+percent	localRule.cpp	/^    double percent;$/;"	m	struct:outdata	file:	access:public
+pos	globalRule.cpp	/^    string pos;$/;"	m	struct:word	file:	access:public
+pos	globalRule_extand.cpp	/^    string pos;$/;"	m	struct:word	file:	access:public
+pos	localRule.cpp	/^    string pos;$/;"	m	struct:word	file:	access:public
+pos1	globalRule.cpp	/^    string pos1;$/;"	m	class:Key	file:	access:public
+pos1	globalRule.cpp	/^    string pos1;$/;"	m	struct:outdata	file:	access:public
+pos1	localRule.cpp	/^    string pos1;$/;"	m	struct:outdata	file:	access:public
+pos2	globalRule.cpp	/^    string pos2;$/;"	m	class:Key	file:	access:public
+pos2	globalRule.cpp	/^    string pos2;$/;"	m	struct:outdata	file:	access:public
+pos2	localRule.cpp	/^    string pos2;$/;"	m	struct:outdata	file:	access:public
+rightArc	globalRule.cpp	/^    int rightArc;$/;"	m	struct:outdata	file:	access:public
+rightArc	globalRule.cpp	/^    int rightArc;$/;"	m	struct:statis	file:	access:public
+rightArc	globalRule_extand.cpp	/^    int rightArc;$/;"	m	struct:outdata	file:	access:public
+rightArc	globalRule_extand.cpp	/^    int rightArc;$/;"	m	struct:statis	file:	access:public
+rules	globalRule_extand.cpp	/^    list<string> rules;$/;"	m	class:Key	file:	access:public
+simpleRule	globalRule_extand.cpp	/^    string simpleRule(){$/;"	f	class:Key	access:public	signature:()
+statis	globalRule.cpp	/^    statis():leftArc(0),rightArc(0),total(0){}$/;"	f	struct:statis	access:public	signature:()
+statis	globalRule.cpp	/^struct statis{$/;"	s	file:
+statis	globalRule_extand.cpp	/^    statis():leftArc(0),rightArc(0),total(0){}$/;"	f	struct:statis	access:public	signature:()
+statis	globalRule_extand.cpp	/^struct statis{$/;"	s	file:
+statis	localRule.cpp	/^    statis():success(0),total(0){}$/;"	f	struct:statis	access:public	signature:()
+statis	localRule.cpp	/^struct statis{$/;"	s	file:
+statis::leftArc	globalRule.cpp	/^    int leftArc;$/;"	m	struct:statis	file:	access:public
+statis::leftArc	globalRule_extand.cpp	/^    int leftArc;$/;"	m	struct:statis	file:	access:public
+statis::rightArc	globalRule.cpp	/^    int rightArc;$/;"	m	struct:statis	file:	access:public
+statis::rightArc	globalRule_extand.cpp	/^    int rightArc;$/;"	m	struct:statis	file:	access:public
+statis::statis	globalRule.cpp	/^    statis():leftArc(0),rightArc(0),total(0){}$/;"	f	struct:statis	access:public	signature:()
+statis::statis	globalRule_extand.cpp	/^    statis():leftArc(0),rightArc(0),total(0){}$/;"	f	struct:statis	access:public	signature:()
+statis::statis	localRule.cpp	/^    statis():success(0),total(0){}$/;"	f	struct:statis	access:public	signature:()
+statis::success	localRule.cpp	/^    int success;$/;"	m	struct:statis	file:	access:public
+statis::total	globalRule.cpp	/^    int total;$/;"	m	struct:statis	file:	access:public
+statis::total	globalRule_extand.cpp	/^    int total;$/;"	m	struct:statis	file:	access:public
+statis::total	localRule.cpp	/^    int total;$/;"	m	struct:statis	file:	access:public
+success	localRule.cpp	/^    int success;$/;"	m	struct:outdata	file:	access:public
+success	localRule.cpp	/^    int success;$/;"	m	struct:statis	file:	access:public
+supIndex	globalRule.cpp	/^    int supIndex;$/;"	m	struct:word	file:	access:public
+supIndex	globalRule_extand.cpp	/^    int supIndex;$/;"	m	struct:word	file:	access:public
+supIndex	localRule.cpp	/^    int supIndex;$/;"	m	struct:word	file:	access:public
+tag	globalRule.cpp	/^    string tag;$/;"	m	struct:word	file:	access:public
+tag	globalRule_extand.cpp	/^    string tag;$/;"	m	struct:word	file:	access:public
+tag	localRule.cpp	/^    string tag;$/;"	m	struct:word	file:	access:public
+total	globalRule.cpp	/^    int total;$/;"	m	struct:outdata	file:	access:public
+total	globalRule.cpp	/^    int total;$/;"	m	struct:statis	file:	access:public
+total	globalRule_extand.cpp	/^    int total;$/;"	m	struct:outdata	file:	access:public
+total	globalRule_extand.cpp	/^    int total;$/;"	m	struct:statis	file:	access:public
+total	localRule.cpp	/^    int total;$/;"	m	struct:outdata	file:	access:public
+total	localRule.cpp	/^    int total;$/;"	m	struct:statis	file:	access:public
+validationLink	globalRule_extand.cpp	/^void validationLink(Rulemap& m, word* words, int index, int index1, int index2, int& correct, int& error){$/;"	f	signature:(Rulemap& m, word* words, int index, int index1, int index2, int& correct, int& error)
+validationRules	globalRule_extand.cpp	/^void validationRules(Rulemap& m, char* testPath){$/;"	f	signature:(Rulemap& m, char* testPath)
+word	globalRule.cpp	/^struct word{$/;"	s	file:
+word	globalRule_extand.cpp	/^struct word{$/;"	s	file:
+word	localRule.cpp	/^struct word{$/;"	s	file:
+word::childs	localRule.cpp	/^    list<word*> childs;$/;"	m	struct:word	file:	access:public
+word::index	globalRule.cpp	/^    int index;$/;"	m	struct:word	file:	access:public
+word::index	globalRule_extand.cpp	/^    int index;$/;"	m	struct:word	file:	access:public
+word::index	localRule.cpp	/^    int index;$/;"	m	struct:word	file:	access:public
+word::name	globalRule.cpp	/^    string name;$/;"	m	struct:word	file:	access:public
+word::name	globalRule_extand.cpp	/^    string name;$/;"	m	struct:word	file:	access:public
+word::name	localRule.cpp	/^    string name;$/;"	m	struct:word	file:	access:public
+word::pos	globalRule.cpp	/^    string pos;$/;"	m	struct:word	file:	access:public
+word::pos	globalRule_extand.cpp	/^    string pos;$/;"	m	struct:word	file:	access:public
+word::pos	localRule.cpp	/^    string pos;$/;"	m	struct:word	file:	access:public
+word::supIndex	globalRule.cpp	/^    int supIndex;$/;"	m	struct:word	file:	access:public
+word::supIndex	globalRule_extand.cpp	/^    int supIndex;$/;"	m	struct:word	file:	access:public
+word::supIndex	localRule.cpp	/^    int supIndex;$/;"	m	struct:word	file:	access:public
+word::tag	globalRule.cpp	/^    string tag;$/;"	m	struct:word	file:	access:public
+word::tag	globalRule_extand.cpp	/^    string tag;$/;"	m	struct:word	file:	access:public
+word::tag	localRule.cpp	/^    string tag;$/;"	m	struct:word	file:	access:public
+words	globalRule_extand.cpp	/^    word* words;$/;"	m	class:Key	file:	access:public

@@ -1,0 +1,158 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ACTION_DIM	lstm-parse.cc	/^unsigned ACTION_DIM = 36;$/;"	v
+ACTION_SIZE	lstm-parse.cc	/^unsigned ACTION_SIZE = 0;$/;"	v
+BAD0	c2.h	/^   static constexpr const char* BAD0 = "<BAD0>";$/;"	m	class:cpyp::Corpus	access:public
+CPYPDICT_H_	c2.h	2;"	d
+Corpus	c2.h	/^  Corpus() {$/;"	f	class:cpyp::Corpus	access:public	signature:()
+Corpus	c2.h	/^class Corpus {$/;"	c	namespace:cpyp
+HIDDEN_DIM	lstm-parse.cc	/^unsigned HIDDEN_DIM = 60;$/;"	v
+INPUT_DIM	lstm-parse.cc	/^unsigned INPUT_DIM = 40;$/;"	v
+InitCommandLine	lstm-parse.cc	/^void InitCommandLine(int argc, char** argv, po::variables_map* conf) {$/;"	f	signature:(int argc, char** argv, po::variables_map* conf)
+IsActionForbidden	lstm-parse.cc	/^static bool IsActionForbidden(const string& a, unsigned bsize, unsigned ssize, const vector<int>& stacki) {$/;"	f	struct:ParserBuilder	access:public	signature:(const string& a, unsigned bsize, unsigned ssize, const vector<int>& stacki)
+LAYERS	lstm-parse.cc	/^unsigned LAYERS = 2;$/;"	v
+LSTM_INPUT_DIM	lstm-parse.cc	/^unsigned LSTM_INPUT_DIM = 60;$/;"	v
+POS_DIM	lstm-parse.cc	/^unsigned POS_DIM = 10;$/;"	v
+POS_SIZE	lstm-parse.cc	/^unsigned POS_SIZE = 0;$/;"	v
+PRETRAINED_DIM	lstm-parse.cc	/^unsigned PRETRAINED_DIM = 50;$/;"	v
+ParserBuilder	lstm-parse.cc	/^  explicit ParserBuilder(Model* model, const unordered_map<unsigned, vector<float>>& pretrained) :$/;"	f	struct:ParserBuilder	access:public	signature:(Model* model, const unordered_map<unsigned, vector<float>>& pretrained)
+ParserBuilder	lstm-parse.cc	/^struct ParserBuilder {$/;"	s	file:
+ParserBuilder::IsActionForbidden	lstm-parse.cc	/^static bool IsActionForbidden(const string& a, unsigned bsize, unsigned ssize, const vector<int>& stacki) {$/;"	f	struct:ParserBuilder	access:public	signature:(const string& a, unsigned bsize, unsigned ssize, const vector<int>& stacki)
+ParserBuilder::ParserBuilder	lstm-parse.cc	/^  explicit ParserBuilder(Model* model, const unordered_map<unsigned, vector<float>>& pretrained) :$/;"	f	struct:ParserBuilder	access:public	signature:(Model* model, const unordered_map<unsigned, vector<float>>& pretrained)
+ParserBuilder::action_lstm	lstm-parse.cc	/^  LSTMBuilder action_lstm;$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::buffer_lstm	lstm-parse.cc	/^  LSTMBuilder buffer_lstm;$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::compute_heads	lstm-parse.cc	/^static map<int,int> compute_heads(unsigned sent_len, const vector<unsigned>& actions, const vector<string>& setOfActions, map<int,string>* pr = nullptr) {$/;"	f	struct:ParserBuilder	access:public	signature:(unsigned sent_len, const vector<unsigned>& actions, const vector<string>& setOfActions, map<int,string>* pr = nullptr)
+ParserBuilder::log_prob_parser	lstm-parse.cc	/^vector<unsigned> log_prob_parser(ComputationGraph* hg,$/;"	f	struct:ParserBuilder	access:public	signature:(ComputationGraph* hg, const vector<unsigned>& raw_sent, const vector<unsigned>& sent, const vector<unsigned>& sentPos, const vector<unsigned>& correct_actions, const vector<string>& setOfActions, const map<unsigned, std::string>& intToWords, double *right)
+ParserBuilder::p_A	lstm-parse.cc	/^  Parameters* p_A; \/\/ action lstm to parser state$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_B	lstm-parse.cc	/^  Parameters* p_B; \/\/ buffer lstm to parser state$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_D	lstm-parse.cc	/^  Parameters* p_D; \/\/ dependency matrix for composition function$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_H	lstm-parse.cc	/^  Parameters* p_H; \/\/ head matrix for composition function$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_R	lstm-parse.cc	/^  Parameters* p_R; \/\/ relation matrix for composition function$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_S	lstm-parse.cc	/^  Parameters* p_S; \/\/ stack lstm to parser state$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_a	lstm-parse.cc	/^  LookupParameters* p_a; \/\/ input action embeddings$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_abias	lstm-parse.cc	/^  Parameters* p_abias;  \/\/ action bias$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_action_start	lstm-parse.cc	/^  Parameters* p_action_start;  \/\/ action bias$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_buffer_guard	lstm-parse.cc	/^  Parameters* p_buffer_guard;  \/\/ end of buffer$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_cbias	lstm-parse.cc	/^  Parameters* p_cbias; \/\/ composition function bias$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_ib	lstm-parse.cc	/^  Parameters* p_ib; \/\/ LSTM input bias$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_p	lstm-parse.cc	/^  LookupParameters* p_p; \/\/ pos tag embeddings$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_p2a	lstm-parse.cc	/^  Parameters* p_p2a;   \/\/ parser state to action$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_p2l	lstm-parse.cc	/^  Parameters* p_p2l; \/\/ POS to LSTM input$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_pbias	lstm-parse.cc	/^  Parameters* p_pbias; \/\/ parser state bias$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_r	lstm-parse.cc	/^  LookupParameters* p_r; \/\/ relation embeddings$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_stack_guard	lstm-parse.cc	/^  Parameters* p_stack_guard;  \/\/ end of stack$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_t	lstm-parse.cc	/^  LookupParameters* p_t; \/\/ pretrained word embeddings (not updated)$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_t2l	lstm-parse.cc	/^  Parameters* p_t2l; \/\/ pretrained word embeddings to LSTM input$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_w	lstm-parse.cc	/^  LookupParameters* p_w; \/\/ word embeddings$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::p_w2l	lstm-parse.cc	/^  Parameters* p_w2l; \/\/ word to LSTM input$/;"	m	struct:ParserBuilder	file:	access:public
+ParserBuilder::stack_lstm	lstm-parse.cc	/^  LSTMBuilder stack_lstm; \/\/ (layers, input, hidden, trainer)$/;"	m	struct:ParserBuilder	file:	access:public
+REL_DIM	lstm-parse.cc	/^unsigned REL_DIM = 8;$/;"	v
+ROOT_SYMBOL	lstm-parse.cc	/^constexpr const char* ROOT_SYMBOL = "ROOT";$/;"	v
+ReplaceStringInPlace	c2.h	/^void ReplaceStringInPlace(std::string& subject, const std::string& search,$/;"	f	class:cpyp::Corpus	access:public	signature:(std::string& subject, const std::string& search, const std::string& replace)
+UNK	c2.h	/^   static constexpr const char* UNK = "UNK";$/;"	m	class:cpyp::Corpus	access:public
+USE_POS	lstm-parse.cc	/^bool USE_POS = false;$/;"	v
+USE_SPELLING	c2.h	/^   bool USE_SPELLING=false; $/;"	m	class:cpyp::Corpus	access:public
+UTF8Len	c2.h	/^inline unsigned UTF8Len(unsigned char x) {$/;"	f	class:cpyp::Corpus	access:public	signature:(unsigned char x)
+VOCAB_SIZE	lstm-parse.cc	/^unsigned VOCAB_SIZE = 0;$/;"	v
+action_lstm	lstm-parse.cc	/^  LSTMBuilder action_lstm;$/;"	m	struct:ParserBuilder	file:	access:public
+actions	c2.h	/^   std::vector<std::string> actions;$/;"	m	class:cpyp::Corpus	access:public
+buffer_lstm	lstm-parse.cc	/^  LSTMBuilder buffer_lstm;$/;"	m	struct:ParserBuilder	file:	access:public
+charsToInt	c2.h	/^   std::map<std::string, unsigned> charsToInt;$/;"	m	class:cpyp::Corpus	access:public
+compute_correct	lstm-parse.cc	/^unsigned compute_correct(const map<int,int>& ref, const map<int,int>& hyp, unsigned len) {$/;"	f	signature:(const map<int,int>& ref, const map<int,int>& hyp, unsigned len)
+compute_heads	lstm-parse.cc	/^static map<int,int> compute_heads(unsigned sent_len, const vector<unsigned>& actions, const vector<string>& setOfActions, map<int,string>* pr = nullptr) {$/;"	f	struct:ParserBuilder	access:public	signature:(unsigned sent_len, const vector<unsigned>& actions, const vector<string>& setOfActions, map<int,string>* pr = nullptr)
+corpus	lstm-parse.cc	/^cpyp::Corpus corpus;$/;"	v
+correct_act_sent	c2.h	/^   std::map<int,std::vector<unsigned>> correct_act_sent;$/;"	m	class:cpyp::Corpus	access:public
+correct_act_sentDev	c2.h	/^   std::map<int,std::vector<unsigned>> correct_act_sentDev;$/;"	m	class:cpyp::Corpus	access:public
+cpyp	c2.h	/^namespace cpyp {$/;"	n
+cpyp::Corpus	c2.h	/^class Corpus {$/;"	c	namespace:cpyp
+cpyp::Corpus::BAD0	c2.h	/^   static constexpr const char* BAD0 = "<BAD0>";$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::Corpus	c2.h	/^  Corpus() {$/;"	f	class:cpyp::Corpus	access:public	signature:()
+cpyp::Corpus::ReplaceStringInPlace	c2.h	/^void ReplaceStringInPlace(std::string& subject, const std::string& search,$/;"	f	class:cpyp::Corpus	access:public	signature:(std::string& subject, const std::string& search, const std::string& replace)
+cpyp::Corpus::UNK	c2.h	/^   static constexpr const char* UNK = "UNK";$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::USE_SPELLING	c2.h	/^   bool USE_SPELLING=false; $/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::UTF8Len	c2.h	/^inline unsigned UTF8Len(unsigned char x) {$/;"	f	class:cpyp::Corpus	access:public	signature:(unsigned char x)
+cpyp::Corpus::actions	c2.h	/^   std::vector<std::string> actions;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::charsToInt	c2.h	/^   std::map<std::string, unsigned> charsToInt;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::correct_act_sent	c2.h	/^   std::map<int,std::vector<unsigned>> correct_act_sent;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::correct_act_sentDev	c2.h	/^   std::map<int,std::vector<unsigned>> correct_act_sentDev;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::get_or_add_word	c2.h	/^inline unsigned get_or_add_word(const std::string& word) {$/;"	f	class:cpyp::Corpus	access:public	signature:(const std::string& word)
+cpyp::Corpus::intToChars	c2.h	/^   std::map<unsigned, std::string> intToChars;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::intToPos	c2.h	/^   std::map<unsigned, std::string> intToPos;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::intToWords	c2.h	/^   std::map<unsigned, std::string> intToWords;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::load_correct_actions	c2.h	/^inline void load_correct_actions(std::string file){$/;"	f	class:cpyp::Corpus	access:public	signature:(std::string file)
+cpyp::Corpus::load_correct_actionsDev	c2.h	/^inline void load_correct_actionsDev(std::string file) {$/;"	f	class:cpyp::Corpus	access:public	signature:(std::string file)
+cpyp::Corpus::max	c2.h	/^   int max;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::maxChars	c2.h	/^   int maxChars;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::maxPos	c2.h	/^   int maxPos;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::nactions	c2.h	/^   unsigned nactions;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::npos	c2.h	/^   unsigned npos;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::nsentences	c2.h	/^   unsigned nsentences;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::nsentencesDev	c2.h	/^   unsigned nsentencesDev;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::nsentencesdev	c2.h	/^   unsigned nsentencesdev;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::nsentencestest	c2.h	/^   unsigned nsentencestest;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::nwords	c2.h	/^   unsigned nwords;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::posToInt	c2.h	/^   std::map<std::string, unsigned> posToInt;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::sentences	c2.h	/^   std::map<int,std::vector<unsigned>> sentences;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::sentencesDev	c2.h	/^   std::map<int,std::vector<unsigned>> sentencesDev;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::sentencesPos	c2.h	/^   std::map<int,std::vector<unsigned>> sentencesPos;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::sentencesPosDev	c2.h	/^   std::map<int,std::vector<unsigned>> sentencesPosDev;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::sentencesStrDev	c2.h	/^   std::map<int,std::vector<std::string>> sentencesStrDev;$/;"	m	class:cpyp::Corpus	access:public
+cpyp::Corpus::wordsToInt	c2.h	/^   std::map<std::string, unsigned> wordsToInt;$/;"	m	class:cpyp::Corpus	access:public
+get_or_add_word	c2.h	/^inline unsigned get_or_add_word(const std::string& word) {$/;"	f	class:cpyp::Corpus	access:public	signature:(const std::string& word)
+intToChars	c2.h	/^   std::map<unsigned, std::string> intToChars;$/;"	m	class:cpyp::Corpus	access:public
+intToPos	c2.h	/^   std::map<unsigned, std::string> intToPos;$/;"	m	class:cpyp::Corpus	access:public
+intToWords	c2.h	/^   std::map<unsigned, std::string> intToWords;$/;"	m	class:cpyp::Corpus	access:public
+kROOT_SYMBOL	lstm-parse.cc	/^unsigned kROOT_SYMBOL = 0;$/;"	v
+load_correct_actions	c2.h	/^inline void load_correct_actions(std::string file){$/;"	f	class:cpyp::Corpus	access:public	signature:(std::string file)
+load_correct_actionsDev	c2.h	/^inline void load_correct_actionsDev(std::string file) {$/;"	f	class:cpyp::Corpus	access:public	signature:(std::string file)
+log_prob_parser	lstm-parse.cc	/^vector<unsigned> log_prob_parser(ComputationGraph* hg,$/;"	f	struct:ParserBuilder	access:public	signature:(ComputationGraph* hg, const vector<unsigned>& raw_sent, const vector<unsigned>& sent, const vector<unsigned>& sentPos, const vector<unsigned>& correct_actions, const vector<string>& setOfActions, const map<unsigned, std::string>& intToWords, double *right)
+main	lstm-parse.cc	/^int main(int argc, char** argv) {$/;"	f	signature:(int argc, char** argv)
+max	c2.h	/^   int max;$/;"	m	class:cpyp::Corpus	access:public
+maxChars	c2.h	/^   int maxChars;$/;"	m	class:cpyp::Corpus	access:public
+maxPos	c2.h	/^   int maxPos;$/;"	m	class:cpyp::Corpus	access:public
+nactions	c2.h	/^   unsigned nactions;$/;"	m	class:cpyp::Corpus	access:public
+npos	c2.h	/^   unsigned npos;$/;"	m	class:cpyp::Corpus	access:public
+nsentences	c2.h	/^   unsigned nsentences;$/;"	m	class:cpyp::Corpus	access:public
+nsentencesDev	c2.h	/^   unsigned nsentencesDev;$/;"	m	class:cpyp::Corpus	access:public
+nsentencesdev	c2.h	/^   unsigned nsentencesdev;$/;"	m	class:cpyp::Corpus	access:public
+nsentencestest	c2.h	/^   unsigned nsentencestest;$/;"	m	class:cpyp::Corpus	access:public
+nwords	c2.h	/^   unsigned nwords;$/;"	m	class:cpyp::Corpus	access:public
+output_conll	lstm-parse.cc	/^void output_conll(const vector<unsigned>& sentence, const vector<unsigned>& pos,$/;"	f	signature:(const vector<unsigned>& sentence, const vector<unsigned>& pos, const vector<string>& sentenceUnkStrings, const map<unsigned, string>& intToWords, const map<unsigned, string>& intToPos, const map<int,int>& hyp, const map<int,string>& rel_hyp)
+p_A	lstm-parse.cc	/^  Parameters* p_A; \/\/ action lstm to parser state$/;"	m	struct:ParserBuilder	file:	access:public
+p_B	lstm-parse.cc	/^  Parameters* p_B; \/\/ buffer lstm to parser state$/;"	m	struct:ParserBuilder	file:	access:public
+p_D	lstm-parse.cc	/^  Parameters* p_D; \/\/ dependency matrix for composition function$/;"	m	struct:ParserBuilder	file:	access:public
+p_H	lstm-parse.cc	/^  Parameters* p_H; \/\/ head matrix for composition function$/;"	m	struct:ParserBuilder	file:	access:public
+p_R	lstm-parse.cc	/^  Parameters* p_R; \/\/ relation matrix for composition function$/;"	m	struct:ParserBuilder	file:	access:public
+p_S	lstm-parse.cc	/^  Parameters* p_S; \/\/ stack lstm to parser state$/;"	m	struct:ParserBuilder	file:	access:public
+p_a	lstm-parse.cc	/^  LookupParameters* p_a; \/\/ input action embeddings$/;"	m	struct:ParserBuilder	file:	access:public
+p_abias	lstm-parse.cc	/^  Parameters* p_abias;  \/\/ action bias$/;"	m	struct:ParserBuilder	file:	access:public
+p_action_start	lstm-parse.cc	/^  Parameters* p_action_start;  \/\/ action bias$/;"	m	struct:ParserBuilder	file:	access:public
+p_buffer_guard	lstm-parse.cc	/^  Parameters* p_buffer_guard;  \/\/ end of buffer$/;"	m	struct:ParserBuilder	file:	access:public
+p_cbias	lstm-parse.cc	/^  Parameters* p_cbias; \/\/ composition function bias$/;"	m	struct:ParserBuilder	file:	access:public
+p_ib	lstm-parse.cc	/^  Parameters* p_ib; \/\/ LSTM input bias$/;"	m	struct:ParserBuilder	file:	access:public
+p_p	lstm-parse.cc	/^  LookupParameters* p_p; \/\/ pos tag embeddings$/;"	m	struct:ParserBuilder	file:	access:public
+p_p2a	lstm-parse.cc	/^  Parameters* p_p2a;   \/\/ parser state to action$/;"	m	struct:ParserBuilder	file:	access:public
+p_p2l	lstm-parse.cc	/^  Parameters* p_p2l; \/\/ POS to LSTM input$/;"	m	struct:ParserBuilder	file:	access:public
+p_pbias	lstm-parse.cc	/^  Parameters* p_pbias; \/\/ parser state bias$/;"	m	struct:ParserBuilder	file:	access:public
+p_r	lstm-parse.cc	/^  LookupParameters* p_r; \/\/ relation embeddings$/;"	m	struct:ParserBuilder	file:	access:public
+p_stack_guard	lstm-parse.cc	/^  Parameters* p_stack_guard;  \/\/ end of stack$/;"	m	struct:ParserBuilder	file:	access:public
+p_t	lstm-parse.cc	/^  LookupParameters* p_t; \/\/ pretrained word embeddings (not updated)$/;"	m	struct:ParserBuilder	file:	access:public
+p_t2l	lstm-parse.cc	/^  Parameters* p_t2l; \/\/ pretrained word embeddings to LSTM input$/;"	m	struct:ParserBuilder	file:	access:public
+p_w	lstm-parse.cc	/^  LookupParameters* p_w; \/\/ word embeddings$/;"	m	struct:ParserBuilder	file:	access:public
+p_w2l	lstm-parse.cc	/^  Parameters* p_w2l; \/\/ word to LSTM input$/;"	m	struct:ParserBuilder	file:	access:public
+posToInt	c2.h	/^   std::map<std::string, unsigned> posToInt;$/;"	m	class:cpyp::Corpus	access:public
+possible_actions	lstm-parse.cc	/^vector<unsigned> possible_actions;$/;"	v
+pretrained	lstm-parse.cc	/^unordered_map<unsigned, vector<float>> pretrained;$/;"	v
+requested_stop	lstm-parse.cc	/^volatile bool requested_stop = false;$/;"	v
+sentences	c2.h	/^   std::map<int,std::vector<unsigned>> sentences;$/;"	m	class:cpyp::Corpus	access:public
+sentencesDev	c2.h	/^   std::map<int,std::vector<unsigned>> sentencesDev;$/;"	m	class:cpyp::Corpus	access:public
+sentencesPos	c2.h	/^   std::map<int,std::vector<unsigned>> sentencesPos;$/;"	m	class:cpyp::Corpus	access:public
+sentencesPosDev	c2.h	/^   std::map<int,std::vector<unsigned>> sentencesPosDev;$/;"	m	class:cpyp::Corpus	access:public
+sentencesStrDev	c2.h	/^   std::map<int,std::vector<std::string>> sentencesStrDev;$/;"	m	class:cpyp::Corpus	access:public
+signal_callback_handler	lstm-parse.cc	/^void signal_callback_handler(int \/* signum *\/) {$/;"	f	signature:(int )
+stack_lstm	lstm-parse.cc	/^  LSTMBuilder stack_lstm; \/\/ (layers, input, hidden, trainer)$/;"	m	struct:ParserBuilder	file:	access:public
+wordsToInt	c2.h	/^   std::map<std::string, unsigned> wordsToInt;$/;"	m	class:cpyp::Corpus	access:public
